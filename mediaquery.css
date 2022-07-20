@@ -1,0 +1,70 @@
+/*---- Mobile Responsive Styles ----*/
+
+@media screen and (max-width: 600px) {
+.top-banner,main {
+    margin: 2%;
+}
+.top-banner {
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em 1em 1em;
+    gap: 2em;
+    border-radius: 1em;
+}
+.banner-title {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner img {
+    width: 100%;
+}
+/* ----body section----- */
+.body-section {
+    flex-direction: column;
+}
+.button-section ul {
+    width: 100%;
+    background: none;
+    animation: none;
+}
+.button-section a {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.transfer-news-section {
+    grid-template-columns: 100%;
+}
+
+.match {
+    padding: .8em 2em;
+    font-size: 14px;
+}
+/* ---footer area--- */
+.footer {
+    padding: 1em;
+    margin-top: 3em;
+}
+.goal h1 {
+    font-size: 3em;
+}
+.goal hr {
+    width: 95%;
+    margin: 1em auto;
+}
+.bottom-texts {
+    flex-direction: column;
+}
+.bottom-texts a {
+    text-align: center;
+}
+.social-links{
+    font-size: 10px;
+}
+}

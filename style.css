@@ -1,0 +1,234 @@
+/* ----font style link ----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ----------
+banner style
+------------- */
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+.banner-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.banner-img img {
+    height: 500px;
+}
+
+.banner-title h1 {
+    font-size: 60px;
+}
+
+.box-btn {
+    background-color: rgb(231, 43, 80);
+    height: 50px;
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.box-btn {
+   background-color: rgb(230, 40, 78);
+}
+
+
+/* -------------
+body section
+---------------- */
+.body-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.transfer-news-section {
+    margin-bottom: 70px;
+}
+
+.transfer-updates {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+}
+
+.news {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px gainsboro;
+    border-radius: 5px;
+}
+
+.news img {
+    width: 250px;
+    height: 150px;
+}
+
+.transfer-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.icon {
+    display: flex;
+}
+
+.clock {
+    margin-right: 30px;
+}
+
+.fa-regular {
+    margin-right: 5px;
+}
+
+.button-section {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-link {
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#blog {
+    background-color: crimson;
+
+}
+
+/* ------------
+match section 
+-------------- */
+.match {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.match-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.match-details h2,
+p {
+    margin: 0;
+}
+
+.match-details p {
+    margin-bottom: 20px;
+}
+
+.match img {
+    width: 80px;
+    height: 50px;
+}
+
+.match-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+
+}
+
+.match-post {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px gainsboro;
+    border-radius: 5px;
+}
+
+.match-section {
+    margin-bottom: 70px;
+}
+
+#match {
+    background-color: crimson;
+}
+
+
+/* --------
+footer area
+----------*/
+.footer {
+    background-color: black;
+}
+
+.goal h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: white;
+
+}
+
+.goal hr {
+    width: 800px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-texts {
+    color: gray;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    margin-bottom: 100px;
+
+
+}
+
+.bottom-texts h3 {
+    font-weight: 300;
+}
